@@ -1,4 +1,4 @@
-LUA_PKG		?= lua5.2
+LUA_PKG		?= lua5.1.5
 LUA_CFLAGS	?= $(shell pkg-config --cflags $(LUA_PKG))
 LUA_CMOD	?= $(shell pkg-config --variable=INSTALL_CMOD $(LUA_PKG))
 
